@@ -1,0 +1,70 @@
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 70px;
+  border-left: 70px solid white;
+  border-width: 70px solid white; 
+
+}
+
+.container .top{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.profile-text{
+    color: grey;
+    font-size: 50px;
+    font-family: 'DM Serif Display', sans-serif;
+}
+
+.container .Main-Content .left-side {
+    position: relative;
+    min-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0 40px 40px;
+}
+
+.Main-Content h3{
+font-family: 'DM Serif Display', sans-serif;
+text-indent: 70px
+}
+
+ .icon-phone {
+    color: #55D9D9
+}
+
+.icon-mail{
+    color:blueviolet
+}
+
+.icon-location{
+    color:red
+
+
+}
+.school {
+    color: #55D9D9
+}
+
+#right-side-id{
+    position: absolute;
+    left: 700px;
+    top: 480px;
+    font-family: 'DM Serif Display', sans-serif;
+}
+
+li :hover{
+    color: blue;
+
+}
+
+.me-about {
+    position: absolute;
+    left: 500px;
+    top: 500px;
+
+}
