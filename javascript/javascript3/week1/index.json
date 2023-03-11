@@ -1,0 +1,35 @@
+{
+  "Football teams": [
+    {
+      "name": "Real Madrid",
+      "country": "Spain",
+      "stadium": "Santiago Bernabeu",
+      "coach": "Carlo Ancelotti"
+    },
+    {
+      "name": "Barcelona",
+      "country": "Spain",
+      "stadium": "Spotify Camp Nou",
+      "coach": "Xavi Hernandez"
+    },
+    {
+      "name": "Manchester United",
+      "country": "England",
+      "stadium": "Old Trafford",
+      "coach": "Erik ten Hag"
+    },
+    {
+      "name": "Liverpool",
+      "country": "England",
+      "stadium": "Anfield",
+      "coach": "Jurgen Klopp"
+    },
+    {
+      "name": "Paris Saint-Germain",
+      "country": "France",
+      "stadium": "Parc des Princes",
+      "coach": "Christophe Galtier"
+    }
+   
+  ]
+}
