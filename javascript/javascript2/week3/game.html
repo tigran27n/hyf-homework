@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Smash Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <h1>Fastest Clicker Game</h1>
+    
+    <div>
+        <label for="game-time">Game Time (seconds):</label>
+        <input type="number" id="game-time" value="10">
+        <button id="start-btn">Start Game</button>
+        <button id="new-game-btn">New Game</button>
+    </div>
+    
+    <div>
+        <h2>Scoreboard</h2>
+        <p>Player 1 (S) Score: <span id="score-s">0</span></p>
+        <p>Player 2 (L) Score: <span id="score-l">0</span></p>
+        <p id="winner"></p>
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
