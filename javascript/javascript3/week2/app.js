@@ -40,3 +40,5 @@ fetch(apiEndpoint)
     populateCurrencies();
   })
   .catch(error => console.error(error));
+
+  
